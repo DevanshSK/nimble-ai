@@ -19,7 +19,7 @@ export const SignUpFormProvider = ({children}: Props) => {
                 onSubmit={onHandleSubmit}
                 className='h-full'
             >
-                <div className="flex flex-col justifyy-between gap-3 h-full">
+                <div className="flex flex-col justify-between gap-3 h-full">
                     <Loader loading={loading}>{children}</Loader>
                 </div>
             </form>

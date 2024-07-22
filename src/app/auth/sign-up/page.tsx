@@ -2,6 +2,7 @@ import React from 'react'
 import { SignUpFormProvider } from '@/components/forms/sign-up/form-provider'
 import RegistrationFormStep from '@/components/forms/sign-up/registration-step'
 import ButtonHandler from '@/components/forms/sign-up/buttons.handlers'
+import HighLightBar from '@/components/forms/sign-up/highlight-bar'
 
 type Props = {}
 
@@ -14,6 +15,7 @@ const SignUp = (props: Props) => {
                     <RegistrationFormStep />
                     <ButtonHandler />
                 </div>
+                <HighLightBar />
             </SignUpFormProvider>
         </div>
     </div>
